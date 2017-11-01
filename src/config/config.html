@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gdrive App</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <h1>Google Drive Sync</h1>
+  <div>
+    <label for="folder">Folder</label>
+    <input type="text" name="folder" id="folder">
+    <label class="btn-folder">
+      <input type="file" id="ctrl" webkitdirectory directory multiple/> Select
+    </label>
+  </div>
+  <div class="save">
+    <button id="btn-save">Save</button>
+  </div>
+  <script>
+    require('./config.js');
+  </script>
+</body>
+
+</html>

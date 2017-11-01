@@ -1,0 +1,50 @@
+html,
+body {
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    line-height: 1.145;
+    color: #333333;
+}
+
+.btn-folder {
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    padding: .3rem .7rem;
+    background-color: #696969;
+    border: 1px solid #696969;
+}
+
+.btn-folder input {
+    display: none;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+    padding: .3rem .7rem;
+    font-size: 1rem;
+}
+
+input {
+    border: 1px solid #696969;
+}
+
+button {
+    color: #ffffff;
+    background-color: #696969;
+}
+
+.save{
+  margin-top: 1rem;
+}
+
+.log{
+    display: block;
+    width: 100%;
+    height: 30rem;
+    overflow: auto;
+}
