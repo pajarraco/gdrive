@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "gdrive",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Google Drive Sync App",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -14,10 +14,10 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Ernesto La Fontaine",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "~1.7.8"
+    "electron": "~1.7.9"
   },
   "dependencies": {
     "chokidar": "^1.7.0"
