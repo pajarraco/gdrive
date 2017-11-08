@@ -20,6 +20,8 @@
     "electron": "~1.7.9"
   },
   "dependencies": {
-    "chokidar": "^1.7.0"
+    "chokidar": "^1.7.0",
+    "google-auth-library": "^0.11.0",
+    "googleapis": "^22.2.0"
   }
 }

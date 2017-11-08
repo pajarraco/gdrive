@@ -1,5 +1,8 @@
 const chokidar = require('chokidar');
 
+// const {dialog} = require('electron').remote
+// console.log(dialog.showOpenDialog({properties: ['openFile', 'openDirectory', 'multiSelections']}))
+
 const watcher = chokidar.watch(sessionStorage.folder, {
   ignored: /(^|[\/\\])\../,
   persistent: true
